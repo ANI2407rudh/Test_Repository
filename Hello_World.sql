@@ -1,6 +1,6 @@
 set serveroutput on;
 DECLARE
-message varchar2(20):= 'Hello, World!';
+message1 varchar2(20):= 'Hello, World!';
 BEGIN
-dbms_output.put_line(message);
+dbms_output.put_line(message1);
 END;
