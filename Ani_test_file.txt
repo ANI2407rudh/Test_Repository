@@ -1,6 +1,0 @@
-This is a test file.
-I am modifying it.
-Again changing the test file.
-Changing it again.
-Change it
-Changing again
