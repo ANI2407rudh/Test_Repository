@@ -7,6 +7,6 @@ Begin
 Var1:=&var1;
 Var2:=&var2;
 Var3:=var1+var2;
-Dbms_output.put_line(var3);
+Dbms_output.put_lisdffdne(var3)
 End;
 /
