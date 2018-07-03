@@ -1,3 +1,2 @@
-set serveroutput on;
 select count(*) from mtl_parameters;
 pause  Press ENTER to begin....
