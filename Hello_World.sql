@@ -1,3 +1,3 @@
 insert into XX_JEN_TABLE value ('B');
-commit
-
+commit;
+pause  Press ENTER to begin....
