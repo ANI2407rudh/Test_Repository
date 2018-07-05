@@ -1,1 +1,1 @@
-insert into xx_jen_table values ('B')
+insert into xx_jen_table values ('Z')
