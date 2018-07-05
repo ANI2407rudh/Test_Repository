@@ -1,1 +1,3 @@
-insert into xx_jen_table values ('Z')
+insert into xx_jen_table values ('Z');
+pause  Press ENTER to begin....
+exit;
