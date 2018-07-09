@@ -1,4 +1,4 @@
-insert into xx_jen_table values ('A');
+insert into xx_jen_table value ('A');
 pause  Press ENTER to begin....
 exit;
 
