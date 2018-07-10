@@ -1,3 +1,4 @@
+set serveroutput on;
 Declare
 Var1 integer;
 Var2 integer;
@@ -8,6 +9,5 @@ Var2:=&var2;
 Var3:=var1+var2;
 Dbms_output.put_line(var3);
 End;
-show err;
 pause  Press ENTER to begin....
 exit;
