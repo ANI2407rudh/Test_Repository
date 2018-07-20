@@ -2,7 +2,7 @@
 
     <target name = "target1">
 		
-	   <echo> Hello World! This is ant.</echo>
+	   <echo1> Hello World! This is ant.</echo>
 	
     </target>
 
