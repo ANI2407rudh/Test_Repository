@@ -1,0 +1,9 @@
+<project name = "First Project" default = "target1">
+
+    <target name = "target1">
+		
+	   <echo> Hello World! This is ant.</echo>
+	
+    </target>
+
+</project>
