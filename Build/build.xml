@@ -1,11 +1,11 @@
-<project name = "ORAAPPS" default = "compileSQL" basedir=".">
+<project name = "ORAAPPS" default = "compileSQL" basedir="src/main/resources">
     
 	<property file="build.properties"/>
    	
     <target name = "compileSQL">
 	
 	<path id="class.path">
-		<pathelement location="..//..//..//..//DevSuiteHome_1//ojdbc6.jar"/>
+		<pathelement location="Lib//ojdbc6.jar"/>
 	</path>
 	
 	<sql 
