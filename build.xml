@@ -17,7 +17,7 @@
         password= "${PASSWORD}"
 		src="${basedir}//src//main//resources//Hello_World.sql"
 		print="yes"
-        output="outputfile.txt"
+        output="${basedir}//outputfile.txt"
 		expandProperties="true"
 		delimiter="/"
         delimitertype="row"
