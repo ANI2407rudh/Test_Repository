@@ -1,22 +1,21 @@
-<project name = "ORAAPPS" default = "compileSQL" basedir="src/main/resources">
+<project name = "ORAAPPS" default = "compileSQL" basedir=".">
     
 	<property file="build.properties"/>
    	
     <target name = "compileSQL">
 	
 	<path id="class.path">
-		<pathelement location=".//Lib//ojdbc6.jar"/>
+		<pathelement location="${basedir}//Lib//ojdbc6.jar"/>
 	</path>
 	
-	<echo> message="${JDBC_DRIVER}" </echo>
 	
 	<sql 
 		classpathref="class.path" 
-		driver="oracle.jdbc.OracleDriver"
-        url="jdbc:oracle:thin:@rclnderdb24.hertz.com:1522:FIND"
-		userid= "apps"
-        password= "fdpw_5i5"
-		src="Hello_World.sql"
+		driver="${JDBC_DRIVER}"
+        url="${JDBC_URL}" 
+		userid= "${USER}"
+        password= "${PASSWORD}"
+		src="${basedir}//src//main//resources//Hello_World.sql"
 		print="yes"
         output="outputfile.txt"
 		expandProperties="true"
