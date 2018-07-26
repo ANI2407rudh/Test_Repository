@@ -12,10 +12,10 @@
 	
 	<sql 
 		classpathref="class.path" 
-		driver="${JDBC_DRIVER}"
-        url="${JDBC_URL}" 
-		userid= "${USER}"
-        password= "${PASSWORD}"
+		driver="oracle.jdbc.OracleDriver"
+        url="jdbc:oracle:thin:@rclnderdb24.hertz.com:1522:FIND"
+		userid= "apps"
+        password= "fdpw_5i5"
 		src="Hello_World.sql"
 		print="yes"
         output="outputfile.txt"
