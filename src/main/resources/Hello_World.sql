@@ -1,9 +1,6 @@
 DECLARE
-cursor c is select * from mtl_parameters;
+message1 varchar2(20):= 'Hello, World';
 BEGIN
-for i in c 
-loop 
-dbms_output.put_line (i.organization_code);
-end loop;
+dbms_output.put_line(message1);
 END;
 /
