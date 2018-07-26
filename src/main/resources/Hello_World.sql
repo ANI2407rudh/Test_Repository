@@ -1,3 +1,4 @@
+set serveroutput on;
 DECLARE
 cursor c is select * from mtl_parameters;
 BEGIN
