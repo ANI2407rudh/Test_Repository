@@ -8,7 +8,7 @@
 		<pathelement location=".//Lib//ojdbc6.jar"/>
 	</path>
 	
-	<echo message="${JDBC_DRIVER}" \>
+	<echo> message="${JDBC_DRIVER}" </echo>
 	
 	<sql 
 		classpathref="class.path" 
