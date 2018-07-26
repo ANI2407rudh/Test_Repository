@@ -1,6 +1,9 @@
 DECLARE
-message1 varchar2(20):= 'Hello, World';
+cursor c is select * from mtl_parameters;
 BEGIN
-dbms_output.put_line(message1);
+for i in c 
+loop 
+dbms_output.put_line (i.organization_code);
+end loop;
 END;
 /
