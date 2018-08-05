@@ -1,9 +1,6 @@
-Declare
-Var1 integer := 10;
-Var2 integer := 20;
-Var3 integer;
-Begin
-Var3:=var1+var2;
-Dbms_output.put_line(var3);
-End;
+DECLARE
+message1 varchar2(20):= 'Hello, World';
+BEGIN
+dbms_output.put_line(message1);
+END;
 /
