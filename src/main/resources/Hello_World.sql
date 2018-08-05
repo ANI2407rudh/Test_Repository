@@ -1,9 +1,8 @@
 Declare
-Var1 integer;
-Var2 integer;
+Var1 integer := 10;
+Var2 integer := 20;
 Var3 integer;
 Begin
-<![CDATA[Var1:=&var1; Var2:=&var2;]]>
 Var3:=var1+var2;
 Dbms_output.put_line(var3);
 End;
