@@ -16,8 +16,8 @@
 		userid= "${USER}"
         password= "${PASSWORD}"
 		<path>
-				<fileset dir=".">
-					<include name="${basedir}//${SRC_DIR}//*.sql">
+				<fileset dir="${basedir}//${SRC_DIR}//">
+					<include name="*.sql"/>
 				</fileset>
 		</path>
 		<!--src="${basedir}//${SRC_DIR}//Add_Two_Numbers.sql"> -->
