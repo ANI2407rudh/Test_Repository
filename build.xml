@@ -26,6 +26,8 @@
 		<path>
 				<fileset dir="${basedir}//${SRC_DIR}//">
 					<include name="*.sql"/>
+					 <arg value="100"/>
+					 <arg value="10"/>
 				</fileset>
 		</path>
 		
