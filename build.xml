@@ -20,7 +20,6 @@
 					<include name="*.sql"/>
 				</fileset>
 		</path>
-		<!--src="${basedir}//${SRC_DIR}//Add_Two_Numbers.sql"> -->
 		print="yes"
         output="${basedir}//outputfile.txt"
 		expandProperties="true"
