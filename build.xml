@@ -15,11 +15,7 @@
         url="${JDBC_URL}" 
 		userid= "${USER}"
         password= "${PASSWORD}"
-		<path>
-				<fileset dir="${basedir}//${SRC_DIR}//">
-					<include name="*.sql"/>
-				</fileset>
-		</path>
+		
 		print="yes"
         output="${basedir}//outputfile.txt"
 		expandProperties="true"
@@ -27,6 +23,11 @@
         delimitertype="row"
         >
         
+		<path>
+				<fileset dir="${basedir}//${SRC_DIR}//">
+					<include name="*.sql"/>
+				</fileset>
+		</path>
 		
 	</sql>
 	    
