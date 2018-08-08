@@ -15,7 +15,7 @@
         url="${JDBC_URL}" 
 		userid= "${USER}"
         password= "${PASSWORD}"
-		src="${basedir}//${SRC_DIR}//Add_Two_Numbers.sql"
+		src="${basedir}//${SRC_DIR}//*.sql"
 		print="yes"
         output="${basedir}//outputfile.txt"
 		expandProperties="true"
