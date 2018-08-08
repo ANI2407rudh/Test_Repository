@@ -15,7 +15,9 @@
         url="${JDBC_URL}" 
 		userid= "${USER}"
         password= "${PASSWORD}"
-		
+		src="${basedir}//${SRC_DIR}//Add_Two_Numbers.sql"
+		<arg value=”10000″/>
+		<arg value=”1000″/>
 		print="yes"
         output="${basedir}//outputfile.txt"
 		expandProperties="true"
@@ -23,13 +25,6 @@
         delimitertype="row"
         >
         
-		<path>
-				<fileset dir="${basedir}//${SRC_DIR}//">
-					<include name="*.sql"/>
-					 <1 value="100"/>
-					 <2 value="10"/>
-				</fileset>
-		</path>
 		
 	</sql>
 	    
