@@ -24,8 +24,8 @@
         delimitertype="row"
         >
         
-		<arg ="10000">
-		<arg ="1000">
+		<arg ="10000"/>
+		<arg ="1000"/>
 	</sql>
 	    
 			
