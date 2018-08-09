@@ -11,7 +11,7 @@
             userid="apps"
             password="fdpw_5i5">
             
-            select * from apps.mtl_parameters;
+            select * from test_po;
 
        </sql>
 	
