@@ -11,7 +11,11 @@
             userid="apps"
             password="fdpw_5i5">
             
-            select * from test_po;
+            <![CDATA[
+
+            update test_po set type_lookup_code = 'STANDARD' where po_header_id < 5080;
+
+            ]]>
 
        </sql>
 	
