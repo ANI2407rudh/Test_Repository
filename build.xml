@@ -1,34 +1,20 @@
-<project name = "ORAAPPS" default = "compileSQL" basedir=".">
-    
-	<property file="build.properties"/>
-   	
+<project name = "ORAAPPS" default = "compileSQL">
+
     <target name = "compileSQL">
 	
 	<path id="class.path">
-		<pathelement location="${basedir}//Lib//ojdbc6.jar"/>
+		<pathelement location="C://DevSuiteHome_1//ojdbc6.jar"/>
 	</path>
-	
-	
-	<sql 
-		classpathref="class.path" 
-		driver="${JDBC_DRIVER}"
-        url="${JDBC_URL}" 
-		userid= "${USER}"
-        password= "${PASSWORD}"
-		src="${basedir}//${SRC_DIR}//Add_Two_Numbers.sql"
 		
-		print="yes"
-        output="${basedir}//outputfile.txt"
-		expandProperties="true"
-		delimiter="/"
-        delimitertype="row"
-        >
-        
-		<arg ="10000"/>
-		<arg ="1000"/>
-	</sql>
-	    
-			
+	   <sql classpathref="class.path" driver="oracle.jdbc.OracleDriver"
+            url="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=rclnderdb24.hertz.com)(PORT=1522))(LOAD_BALANCE=YES)(CONNECT_DATA=(SERVICE_NAME=FIND)))" 
+            userid="apps"
+            password="fdpw_5i5">
+            
+            select * from apps.mtl_parameters;
+
+       </sql>
+	
     </target>
 
 </project>
