@@ -17,7 +17,7 @@
         password= "${PASSWORD}"
 		src="${basedir}//${SRC_DIR}//Add_Two_Numbers.sql"
 		arg ="10000"
-		arg ="1000"
+		arg2 ="1000"
 		print="yes"
         output="${basedir}//outputfile.txt"
 		expandProperties="true"
