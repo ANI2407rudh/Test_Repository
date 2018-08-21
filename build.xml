@@ -5,7 +5,7 @@
     <target name = "compileSQL">
 	
 	<path id="class.path">
-		<pathelement location="..//..//..//..//DevSuiteHome_1//ojdbc6.jar"/>
+		<pathelement location="${basedir}//Lib//ojdbc6.jar"/>
 	</path>
 	
 	<sql 
@@ -16,7 +16,7 @@
         password= "${PASSWORD}"
 		src="${basedir}//${SRC_DIR}//Hello_World.sql"
 		print="yes"
-        output="outputfile.txt"
+        output="${basedir}//outputfile.txt"
 		expandProperties="true"
 		delimiter="/"
         delimitertype="row"
