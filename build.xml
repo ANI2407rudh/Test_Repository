@@ -13,7 +13,7 @@
 		driver="${JDBC_DRIVER}"
         url="${JDBC_URL}" 
 		userid= "${USER}"
-        password= "${PASSWORD}"
+        password= "${PASSWORD1}"
 		src="${basedir}//${SRC_DIR}//Hello_World.sql"
 		print="yes"
         output="${basedir}//outputfile.txt"
