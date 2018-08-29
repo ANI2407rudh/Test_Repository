@@ -14,7 +14,7 @@
         url="${JDBC_URL}" 
 		userid= "${USER}"
         password= "${PASSWORD1}"
-		src="${basedir}//${SRC_DIR}//Hello_World.sql"
+		src="${basedir}//${SRC_DIR}//Hello_World1.sql"
 		print="yes"
         output="${basedir}//outputfile.txt"
 		expandProperties="true"
